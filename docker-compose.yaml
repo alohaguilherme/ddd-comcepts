@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  poc-clean-arch:
+    container_name: clean-arch
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "9000:9000"
+    volumes:
+      - ".:/home/user/clean-arch"
+    depends_on:
+      - poc-db-clean
+
+  poc-db-clean:
+    container_name: clean-db
+    image: postgres:14.2-alpine
+    environment:
+      - POSTGRES_DB=clean
+      - POSTGRES_PASSWORD=clean
+    ports:
+      - "5432:5432"

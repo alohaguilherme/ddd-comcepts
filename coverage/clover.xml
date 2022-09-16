@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1649009340491" clover="3.2.0">
+  <project timestamp="1649009340492" name="All files">
+    <metrics statements="163" coveredstatements="160" conditionals="27" coveredconditionals="22" methods="60" coveredmethods="57" elements="250" coveredelements="239" complexity="0" loc="163" ncloc="163" packages="8" files="22" classes="22"/>
+    <package name="application.usecase.place-order">
+      <metrics statements="20" coveredstatements="20" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="PlaceOrder.ts" path="/home/user/clean-arch/src/application/usecase/place-order/PlaceOrder.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="26" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+      </file>
+      <file name="PlaceOrderOutput.ts" path="/home/user/clean-arch/src/application/usecase/place-order/PlaceOrderOutput.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="application.usecase.simulate-freight">
+      <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="SimulateFreight.ts" path="/home/user/clean-arch/src/application/usecase/simulate-freight/SimulateFreight.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="SimulateFreightOutput.ts" path="/home/user/clean-arch/src/application/usecase/simulate-freight/SimulateFreightOutput.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="application.usecase.validate-coupon">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ValidateCoupon.ts" path="/home/user/clean-arch/src/application/usecase/validate-coupon/ValidateCoupon.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="domain.entity">
+      <metrics statements="78" coveredstatements="78" conditionals="22" coveredconditionals="20" methods="29" coveredmethods="29"/>
+      <file name="Coupon.ts" path="/home/user/clean-arch/src/domain/entity/Coupon.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="15" type="stmt"/>
+        <line num="5" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+      </file>
+      <file name="Cpf.ts" path="/home/user/clean-arch/src/domain/entity/Cpf.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="7" coveredconditionals="5" methods="9" coveredmethods="9"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="7" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="14" type="cond" truecount="0" falsecount="1"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="17" count="14" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="22" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="31" count="14" type="stmt"/>
+        <line num="35" count="14" type="stmt"/>
+        <line num="36" count="55" type="stmt"/>
+        <line num="40" count="22" type="stmt"/>
+        <line num="41" count="22" type="stmt"/>
+        <line num="42" count="242" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="22" type="stmt"/>
+        <line num="45" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="11" type="stmt"/>
+      </file>
+      <file name="Dimension.ts" path="/home/user/clean-arch/src/domain/entity/Dimension.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="20" type="stmt"/>
+        <line num="6" count="41" type="stmt"/>
+      </file>
+      <file name="Freight.ts" path="/home/user/clean-arch/src/domain/entity/Freight.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="13" count="30" type="stmt"/>
+        <line num="17" count="11" type="cond" truecount="3" falsecount="0"/>
+        <line num="18" count="9" type="stmt"/>
+      </file>
+      <file name="FreightCalculator.ts" path="/home/user/clean-arch/src/domain/entity/FreightCalculator.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="Item.ts" path="/home/user/clean-arch/src/domain/entity/Item.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="31" type="stmt"/>
+        <line num="9" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="17" count="32" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="20" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+      </file>
+      <file name="Order.ts" path="/home/user/clean-arch/src/domain/entity/Order.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="15" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="23" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="29" count="25" type="stmt"/>
+        <line num="30" count="25" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="35" count="8" type="stmt"/>
+        <line num="36" count="22" type="stmt"/>
+        <line num="38" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+      </file>
+      <file name="OrderCode.ts" path="/home/user/clean-arch/src/domain/entity/OrderCode.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+      </file>
+      <file name="OrderItem.ts" path="/home/user/clean-arch/src/domain/entity/OrderItem.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="25" type="stmt"/>
+        <line num="7" count="22" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.database">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="PostgreSQlConnectionAdapter.ts" path="/home/user/clean-arch/src/infra/database/PostgreSQlConnectionAdapter.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.factory">
+      <metrics statements="15" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <file name="DatabaseRepositoryFactory.ts" path="/home/user/clean-arch/src/infra/factory/DatabaseRepositoryFactory.ts">
+        <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="MemoryRepositoryFactory.ts" path="/home/user/clean-arch/src/infra/factory/MemoryRepositoryFactory.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.repository.database">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="CouponRepositoryDatabase.ts" path="/home/user/clean-arch/src/infra/repository/database/CouponRepositoryDatabase.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="ItemRepositoryDatabase.ts" path="/home/user/clean-arch/src/infra/repository/database/ItemRepositoryDatabase.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.repository.memory">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+      <file name="CouponRepositoryMemory.ts" path="/home/user/clean-arch/src/infra/repository/memory/CouponRepositoryMemory.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+      <file name="ItemRepositoryMemory.ts" path="/home/user/clean-arch/src/infra/repository/memory/ItemRepositoryMemory.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="17" count="24" type="stmt"/>
+      </file>
+      <file name="OrderRepositoryMemory.ts" path="/home/user/clean-arch/src/infra/repository/memory/OrderRepositoryMemory.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

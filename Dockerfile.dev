@@ -1,0 +1,18 @@
+FROM node:17.8
+
+RUN groupmod -g 1001 node \
+  && usermod -u 1001 -g 1001 node
+RUN adduser --disabled-password -uid 1000 user
+RUN mkdir /home/user/clean-arch
+
+RUN npm install -g npm
+RUN npm i -g typescript
+
+USER user
+
+WORKDIR /home/user/clean-arch
+COPY . /home/user/clean-arch
+
+EXPOSE 9000
+
+CMD [ "tail", "-f", "/dev/null" ]
